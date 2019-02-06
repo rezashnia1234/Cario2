@@ -1,0 +1,40 @@
+// Iran Sans Font
+
+$iran-sans-font-path: $font-path !default;
+
+
+@font-face {
+ font-family: 'Iran Sans';
+ font-style: normal;
+ font-weight: normal;
+ src: local("Iran Sans Regular"), local("Iran-Sans-Regular"), url('#{$iran-sans-font-path}/iran-sans-regular.eot');
+ src: local("Iran Sans Regular"), local("Iran-Sans-Regular"), 
+ url("#{$iran-sans-font-path}/iran-sans-regular.eot?#iefix") format("embedded-opentype"), 
+ url("#{$iran-sans-font-path}/iran-sans-regular.woff2") format("woff2"), 
+ url("#{$iran-sans-font-path}/iran-sans-regular.woff") format("woff"), 
+ url("#{$iran-sans-font-path}/iran-sans-regular.ttf") format("truetype");
+} 
+
+@font-face {
+ font-family: 'Iran Sans';
+ font-style: normal;
+ font-weight: 500;
+ src: local("Iran Sans Medium"), local("Iran-Sans-Medium"), url('#{$iran-sans-font-path}/iran-sans-medium.eot');
+ src: local("Iran Sans Medium"), local("Iran-Sans-Medium"), 
+ url("#{$iran-sans-font-path}/iran-sans-medium.eot?#iefix'") format("embedded-opentype"), 
+ url("#{$iran-sans-font-path}/iran-sans-medium.woff2") format("woff2"), 
+ url("#{$iran-sans-font-path}/iran-sans-medium.woff") format("woff"), 
+ url("#{$iran-sans-font-path}/iran-sans-medium.ttf") format("truetype");
+} 
+
+@font-face {
+ font-family: 'Iran Sans';
+ font-style: normal;
+ font-weight: 700;
+ src: local("Iran Sans Bold"), local("Iran-Sans-Bold"), url('#{$iran-sans-font-path}/iran-sans-bold.eot');
+ src: local("Iran Sans Bold"), local("Iran-Sans-Bold"), 
+ url("#{$iran-sans-font-path}/iran-sans-bold.eot?#iefix'") format("embedded-opentype"), 
+ url("#{$iran-sans-font-path}/iran-sans-bold.woff2") format("woff2"), 
+ url("#{$iran-sans-font-path}/iran-sans-bold.woff") format("woff"), 
+ url("#{$iran-sans-font-path}/iran-sans-bold.ttf") format("truetype");
+} 
