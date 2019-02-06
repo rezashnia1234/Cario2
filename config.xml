@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ir.smgroup.irantech"
+        id        = "ir.smgroup.cario"
         version   = "1.0.0">
 		
 	<!-- ir.smgroup.Pelato -->
@@ -93,11 +93,13 @@
 
 	<plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git" source="git" />
 	<plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-webview.git" source="git" />
-	<plugin spec="https://github.com/ionic-team/ionic-plugin-deeplinks.git" source="git" />
 	<plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" />
 	<!-- <plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" /> -->
-	
-
+	<plugin spec="https://github.com/ionic-team/ionic-plugin-deeplinks.git" source="git" >
+		<param name="URL_SCHEME" value="cario" />
+		<param name="DEEPLINK_SCHEME" value="https" />
+		<param name="DEEPLINK_HOST" value="example.com" />	
+	</plugin>
     <!-- Third party plugins -->
 	<preference name="android-build-tool" value="gradle" />
 	<!--
